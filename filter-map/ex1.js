@@ -23,6 +23,11 @@ Sortie attendue:
 */
 
 function getJedisNames(characters) {
+  const  toto = characters.filter( character  =>  character.side === 'light' )
+  return toto.map(caca => 
+    caca.name
+)
 }
+
 
 module.exports = getJedisNames;
